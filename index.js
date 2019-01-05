@@ -1,7 +1,14 @@
 /**
  * 基础组件
  */
-export { default as Text } from './Basic/Text'
-export { default as Button } from './Basic/Button'
-export { default as Toast } from './Basic/Toast'
+import Text from './Basic/Text'
+import Button from './Basic/Button'
+import Toast from './Basic/Toast'
+
+const Yagami = {
+    Text: Text,
+    Button: Button,
+    Toast: Toast
+}
+export default Yagami
 
