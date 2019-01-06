@@ -123,5 +123,6 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#00000000',
     },
 })
