@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     containView: {
         position: 'absolute',
         top: 0,
-        height: Dimensions.get('window').height,
+        height: Dimensions.get('window').height + 50,
         width: Dimensions.get('window').width,
         alignItems: 'center',
         justifyContent: 'center',
