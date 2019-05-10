@@ -15,7 +15,9 @@ export default class PlatformUtils {
 	 * @returns {boolean}
 	 */
     static isIphoneX = () => {
-        return PlatformUtils.isIOS() && DEVICE_WIDTH_DP === 375 && DEVICE_HEIGHT_DP === 812
+        let isX = PlatformUtils.isIOS() && DEVICE_WIDTH_DP === 375 && DEVICE_HEIGHT_DP === 812
+        let isXR = PlatformUtils.isIOS() && DEVICE_WIDTH_DP === 414 && DEVICE_HEIGHT_DP === 896
+        return isX || isXR
     }
 
 	/**
