@@ -1,5 +1,4 @@
 /**
- * Created by xiamingyu on 2019/1/4.
  * Update by guanziyu on 2019/1/15.
  */
 import React, { Component } from 'react'
@@ -18,8 +17,9 @@ export default class AJText extends Component {
 		let textPropsStyle = {}
 		if (style) {
 			textPropsStyle = StyleSheet.flatten(style)
+			console.log(textPropsStyle)
 			if (textPropsStyle.fontSize && !textPropsStyle.lineHeight) {
-				lineHeight = Math.ceil(textPropsStyle.fontSize * 1.2)
+				lineHeight = Math.ceil(textPropsStyle.fontSize * 1.4)
 			}
 		}
 		return (
