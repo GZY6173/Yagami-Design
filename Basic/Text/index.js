@@ -17,7 +17,6 @@ export default class AJText extends Component {
 		let textPropsStyle = {}
 		if (style) {
 			textPropsStyle = StyleSheet.flatten(style)
-			console.log(textPropsStyle)
 			if (textPropsStyle.fontSize && !textPropsStyle.lineHeight) {
 				lineHeight = Math.ceil(textPropsStyle.fontSize * 1.4)
 			}
