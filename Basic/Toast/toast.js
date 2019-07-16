@@ -79,7 +79,7 @@ export const Info = (title) => {
     addInfo(title)
     setTimeout(() => {
         destroySibling()
-    }, 2000)
+    }, 1500)
 }
 
 const styles = StyleSheet.create({
@@ -122,7 +122,8 @@ const styles = StyleSheet.create({
         height: Dimensions.get('window').height,
         width: Dimensions.get('window').width,
         alignItems: 'center',
-        justifyContent: 'center',
+        // justifyContent: 'center',
+        paddingTop: Dimensions.get('window').height * 0.7,
         backgroundColor: '#00000000',
     },
 })
