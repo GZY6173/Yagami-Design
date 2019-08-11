@@ -5,7 +5,7 @@ export { default as Text } from './Basic/Text'
 export { default as Toast } from './Basic/Toast'
 export { default as Icon } from './Basic/Icon'
 export { default as View } from './Basic/View'
-
+export { default as Modal } from './Basic/Modal'
 
 
 /**
