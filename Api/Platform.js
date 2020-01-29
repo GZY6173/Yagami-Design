@@ -3,12 +3,29 @@
  * 平台兼容处理工具类
  */
 import { Platform, Dimensions } from 'react-native'
+import DeviceInfo from 'react-native-device-info'
 
 // 屏幕大小比例
 const DEVICE_WIDTH_DP = Dimensions.get('window').width
 const DEVICE_HEIGHT_DP = Dimensions.get('window').height
 
 export default class PlatformUtils {
+
+     /**
+	 * 判断是否为横屏
+	 * @returns {boolean}
+	 */
+    static isLandscape = () => {
+        return DeviceInfo.isLandscape()
+    }
+
+    /**
+	 * 判断是否为平板电脑
+	 * @returns {boolean}
+	 */
+    static isPad = () => {
+        return DeviceInfo.isTablet()
+    }
 
 	/**
 	 * 判断是否为iphonex

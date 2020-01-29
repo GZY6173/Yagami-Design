@@ -1,4 +1,5 @@
 import { Dimensions, PixelRatio } from 'react-native'
+import Platform from './Platform'
 
 // 屏幕大小比例
 export const DEVICE_WIDTH_DP = Dimensions.get('window').width
@@ -6,7 +7,7 @@ export const DEVICE_HEIGHT_DP = Dimensions.get('window').height
 export const PIXEL = 1 / PixelRatio.get()
 
 // UI给图比例大小
-const DEFAULT_WIDTH_PX = 750
+const DEFAULT_WIDTH_PX = Platform.isPad() ? Platform.isLandscape() ? 2048 : 1536 : 750
 
 /**
  * [pxToDp 将px转成当前设备的pt值]
@@ -19,7 +20,7 @@ const Dimens = {
 	fill_width: Dimensions.get('window').width,
 	fill_height: Dimensions.get('window').height,
 	aline: pxToDp(0.5),
-	p1: pxToDp(1),
+	p1: PIXEL,
 	p2: pxToDp(2),
 	p3: pxToDp(3),
 	p4: pxToDp(4),
