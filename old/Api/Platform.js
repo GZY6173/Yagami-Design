@@ -3,7 +3,7 @@
  * 平台兼容处理工具类
  */
 import { Platform, Dimensions } from 'react-native'
-// import DeviceInfo from 'react-native-device-info'
+import DeviceInfo from 'react-native-device-info'
 
 // 屏幕大小比例
 const DEVICE_WIDTH_DP = Dimensions.get('window').width

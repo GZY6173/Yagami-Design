@@ -1,12 +1,12 @@
 /**
  * 基础组件
  */
-export { default as Text } from './Componentssss/Text'
+export { default as Text } from './Component/Text'
 export {default as Image} from './Component/Image'
-// export { default as Toast } from './Basic/Toast'
+export { default as Toast } from './Component/Toast'
 export { default as Icon } from './Component/Icon'
 export { default as View } from './Component/View'
-// export { default as Modal } from './Basic/Modal'
+export { default as Modal } from './Component/Modal'
 
 export { default as FlatList } from './Component/FlatList'
 export { default as ActivityIndicator } from './Component/ActivityIndicator'
