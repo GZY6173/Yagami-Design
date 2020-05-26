@@ -15,17 +15,17 @@ export default class PlatformUtils {
 	 * 判断是否为横屏
 	 * @returns {boolean}
 	 */
-    static isLandscape = () => {
-        return DeviceInfo.isLandscape()
-    }
+    // static isLandscape = () => {
+    //     return DeviceInfo.isLandscape()
+    // }
 
     /**
 	 * 判断是否为平板电脑
 	 * @returns {boolean}
 	 */
-    static isPad = () => {
-        return DeviceInfo.isTablet()
-    }
+    // static isPad = () => {
+    //     return DeviceInfo.isTablet()
+    // }
 
 	/**
 	 * 判断是否为iphonex

@@ -20,3 +20,8 @@ export { default as SectionList } from './Component/SectionList'
 export { default as Switch } from './Component/Switch'
 export { default as TextInput } from './Component/TextInput'
 export { default as WebView } from './Component/WebView'
+
+/**
+ * api
+ */
+export { default as Platform } from './Api/Platform'
