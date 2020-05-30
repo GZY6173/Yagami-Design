@@ -1,25 +1,30 @@
 /**
  * 基础组件
  */
-export { default as Text } from './component/Text'
-export { default as Image } from './component/Image'
-export { default as Toast } from './component/Toast'
-export { default as Icon } from './component/Icon'
-export { default as View } from './component/View'
-export { default as Modal } from './component/Modal'
+export { default as Text } from './basic/Text'
+export { default as Image } from './basic/Image'
+export { default as Toast } from './basic/Toast'
+export { default as Icon } from './basic/Icon'
+export { default as View } from './basic/View'
+export { default as Modal } from './basic/Modal'
 
-export { default as FlatList } from './component/FlatList'
-export { default as ActivityIndicator } from './component/ActivityIndicator'
-export { default as ImageBackground } from './component/ImageBackground'
-export { default as KeyboardAvoidingView } from './component/KeyboardAvoidingView'
-export { default as MaskedView } from './component/MaskedView'
-export { default as Picker } from './component/Picker'
-export { default as RefreshControl } from './component/RefreshControl'
-export { default as ScrollView } from './component/ScrollView'
-export { default as SectionList } from './component/SectionList'
-export { default as Switch } from './component/Switch'
-export { default as TextInput } from './component/TextInput'
-export { default as WebView } from './component/WebView'
+export { default as FlatList } from './basic/FlatList'
+export { default as ActivityIndicator } from './basic/ActivityIndicator'
+export { default as ImageBackground } from './basic/ImageBackground'
+export { default as KeyboardAvoidingView } from './basic/KeyboardAvoidingView'
+export { default as MaskedView } from './basic/MaskedView'
+export { default as Picker } from './basic/Picker'
+export { default as RefreshControl } from './basic/RefreshControl'
+export { default as ScrollView } from './basic/ScrollView'
+export { default as SectionList } from './basic/SectionList'
+export { default as Switch } from './basic/Switch'
+export { default as TextInput } from './basic/TextInput'
+export { default as WebView } from './basic/WebView'
+
+/**
+ * 高级组件
+ */
+export { default as CountDown } from './advance/Countdown'
 
 /**
  * api
