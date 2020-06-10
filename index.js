@@ -20,6 +20,7 @@ export { default as SectionList } from './basic/SectionList'
 export { default as Switch } from './basic/Switch'
 export { default as TextInput } from './basic/TextInput'
 export { default as WebView } from './basic/WebView'
+export { default as Swiper } from './basic/Swiper'
 
 /**
  * 高级组件
@@ -29,4 +30,4 @@ export { default as CountDown } from './advance/Countdown'
 /**
  * api
  */
-export { default as Platform } from './Api/Platform'
+export { default as Platform } from './api/Platform'
