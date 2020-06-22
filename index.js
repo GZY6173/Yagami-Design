@@ -30,10 +30,11 @@ export { default as CountDown } from './advance/Countdown'
 /**
  * api
  */
-export { default as Platform } from './api/Platform'
-export { default as AppState } from './api/AppState'
-export { default as BackHandler } from './api/BackHandler'
-export { default as CameraRoll } from './api/CameraRoll'
-export { default as Clipboard } from './api/Clipboard'
-export { default as Keyboard } from './api/Keyboard'
-export { default as Linking } from './api/Linking'
+export { default as Platform } from './apis/Platform'
+export { default as AppState } from './apis/AppState'
+export { default as BackHandler } from './apis/BackHandler'
+export { default as Clipboard } from './apis/Clipboard'
+export { default as Keyboard } from './apis/Keyboard'
+export { default as Linking } from './apis/Linking'
+export { default as Dimensions } from './apis/Dimensions'
+export { default as PixelRatio } from './apis/PixelRatio'
