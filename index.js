@@ -21,6 +21,7 @@ export { default as Switch } from './basic/Switch'
 export { default as TextInput } from './basic/TextInput'
 export { default as WebView } from './basic/WebView'
 export { default as Swiper } from './basic/Swiper'
+export { default as Button } from './basic/Button'
 
 /**
  * 高级组件
