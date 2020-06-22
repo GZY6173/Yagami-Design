@@ -26,6 +26,7 @@ export { default as Swiper } from './basic/Swiper'
  * 高级组件
  */
 export { default as CountDown } from './advance/Countdown'
+export { default as List } from './advance/List'
 
 /**
  * api
