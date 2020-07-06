@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, View, TouchableOpacity, Modal, StatusBar, Platform, KeyboardAvoidingView, Dimensions } from 'react-native'
+import { StyleSheet, View, TouchableOpacity, Modal, StatusBar, SafeAreaView, KeyboardAvoidingView, Dimensions } from 'react-native'
 import Text from '../Text'
 
 
@@ -32,7 +32,7 @@ export default class BasicModal extends Component {
                 animationType={'fade'}
                 onRequestClose={androidBackClosable ? this.close : null}
             >
-                <View style={[styles.modalView,{backgroundColor: windowColor }]}>
+                <SafeAreaView style={[styles.modalView,{backgroundColor: windowColor }]}>
                     {maskClosable &&
                         <TouchableOpacity
                             style={{ position: 'absolute', top: 0, width: Dimensions.get('window').width, height: Dimensions.get('window').height + 100, backgroundColor: windowColor }}
@@ -42,7 +42,7 @@ export default class BasicModal extends Component {
                         </TouchableOpacity>
                     }
                     {this.renderContain()}
-                </View>
+                </SafeAreaView>
             </Modal>
         )
     }
