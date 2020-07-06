@@ -21,19 +21,22 @@ export { default as Switch } from './basic/Switch'
 export { default as TextInput } from './basic/TextInput'
 export { default as WebView } from './basic/WebView'
 export { default as Swiper } from './basic/Swiper'
+export { default as Button } from './basic/Button'
 
 /**
  * 高级组件
  */
 export { default as CountDown } from './advance/Countdown'
+export { default as List } from './advance/List'
 
 /**
  * api
  */
-export { default as Platform } from './api/Platform'
-export { default as AppState } from './api/AppState'
-export { default as BackHandler } from './api/BackHandler'
-export { default as CameraRoll } from './api/CameraRoll'
-export { default as Clipboard } from './api/Clipboard'
-export { default as Keyboard } from './api/Keyboard'
-export { default as Linking } from './api/Linking'
+export { default as Platform } from './apis/Platform'
+export { default as AppState } from './apis/AppState'
+export { default as BackHandler } from './apis/BackHandler'
+export { default as Clipboard } from './apis/Clipboard'
+export { default as Keyboard } from './apis/Keyboard'
+export { default as Linking } from './apis/Linking'
+export { default as Dimensions } from './apis/Dimensions'
+export { default as PixelRatio } from './apis/PixelRatio'
